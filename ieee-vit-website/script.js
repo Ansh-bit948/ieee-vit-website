@@ -53,12 +53,10 @@ contactForm.addEventListener('submit', (e) => {
     
     // Reset form
     contactForm.reset();
-    
-    // Here you can add code to send the form data to a server
-    // Example: fetch('/submit-form', { method: 'POST', body: formData })
+
 });
 
-// Animate domain cards on scroll (Intersection Observer)
+// Animate domain cards on scroll 
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
@@ -96,4 +94,5 @@ window.addEventListener('scroll', () => {
             link.classList.add('active');
         }
     });
+
 });
